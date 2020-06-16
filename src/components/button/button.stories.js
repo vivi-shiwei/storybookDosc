@@ -39,7 +39,7 @@ storiesOf('Button', module)
         <button {...eventsFromObject}>Hello World!</button>
     ));
     storiesOf('withConsole', module)
- .addDecorator((storyFn, context) => withConsole()(storyFn)(context))
+ .addDecorator((storyFn, conso) => withConsole()(storyFn)(conso))
  .add('with Log', () => <Button onClick={() => console.log('Data:', 1, 3, 4)}>Log Button</Button>)
  .add('with Warning', () => <Button onClick={() => console.warn('Data:', 1, 3, 4)}>Warn Button</Button>)
  .add('with Error', () => <Button onClick={() => console.error('Test Error')}>Error Button</Button>)

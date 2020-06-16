@@ -28,4 +28,4 @@ addParameters({
     { name: 'facebook', value: '#3b5998' },
   ], 
 });
-addDecorator((storyFn, context) => withConsole()(storyFn)(context));
+addDecorator((storyFn, conso) => withConsole()(storyFn)(conso));
