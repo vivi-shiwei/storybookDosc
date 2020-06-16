@@ -1,0 +1,1 @@
+const Center = ({ children }) => <button style={styles}>{children}</button>;

@@ -1,0 +1,24 @@
+{
+  "name": "storybookdosc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "storybook": "start-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0"
+  },
+  "dependencies": {
+    "@storybook/addon-storysource": "^5.3.19",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
