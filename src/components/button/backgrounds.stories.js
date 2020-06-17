@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default {
-  title: 'Button',
+  title: 'Backgrounds',
 }
 
 export const noBackgrounds = () => (
